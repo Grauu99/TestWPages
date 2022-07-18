@@ -3,31 +3,32 @@ html, body {
     width: 100%;
   }
   .box1 {
+    
     background-color: #FF6A6A;
-    color: #FFFFFF;
+    color: #ffffff;
     width: 300px;
     border: 15px;
     padding: 2px;
-    margin-inline: 10px;
+    margin: 10px;
   }
   .box2 {
-    background-color: #ffffff;
-    width: 300px;
-    border: 15px;
-    padding: 50px;
-    margin: 20px;
-  }
-  .box3 {
-    background-color: #ffffff;
-    width: 300px;
-    border: 15px;
-    padding: 20px;
-    margin: 20px;
-  }
-  .box4 {
-    background-color: #ffffff;
+    background-color: #817f7f;
     width: 300px;
     border: 15px;
     padding: 2px;
-    margin: 20px;
+    margin: 10px;
+  }
+  .box3 {
+    background-color: #8d8d8d;
+    width: 300px;
+    border: 15px;
+    padding: 2px;
+    margin: 10px;
+  }
+  .box4 {
+    background-color: #bfbcbc;
+    width: 300px;
+    border: 15px;
+    padding: 2px;
+    margin: 10px;
   }
