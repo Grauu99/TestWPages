@@ -1,0 +1,33 @@
+html, body {
+    height: 100%;
+    width: 100%;
+  }
+  .box1 {
+    background-color: #FF6A6A;
+    color: #FFFFFF;
+    width: 300px;
+    border: 15px;
+    padding: 2px;
+    margin-inline: 10px;
+  }
+  .box2 {
+    background-color: #ffffff;
+    width: 300px;
+    border: 15px;
+    padding: 50px;
+    margin: 20px;
+  }
+  .box3 {
+    background-color: #ffffff;
+    width: 300px;
+    border: 15px;
+    padding: 20px;
+    margin: 20px;
+  }
+  .box4 {
+    background-color: #ffffff;
+    width: 300px;
+    border: 15px;
+    padding: 2px;
+    margin: 20px;
+  }
