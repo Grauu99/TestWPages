@@ -53,7 +53,7 @@ body {
   width: 100%;
   border: 15px;
   padding: 2px;
-  margin: 0px;
+  margin-bottom: 30px;
   }
 .box6 {
   background-color: #ffffff;
@@ -61,13 +61,11 @@ body {
   border: 15px;
   padding: 2px;
   margin: 0px;
+  font-size: 12px;
   }
 .table {
   margin: 45px;
   }
 .links{
   text-align: center;
-  color: #BA4D4D;
-  
 }
-
