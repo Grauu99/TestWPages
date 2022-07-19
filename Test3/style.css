@@ -1,15 +1,18 @@
-html {
-    font-family: Arial, Helvetica, sans-serif;
-    font-weight: bold;
-    height: 100%;
-    width: 100%;
-  }
-body {
+html 
+{
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: bold;
+  height: 100%;
+  width: 100%;
+}
+body 
+{
   font-size: 16px;
   font-weight: normal;
 }
 
-.box1 {
+.box1 
+{
   background-color: #FF6A6A;
   color: #ffffff;
   font-size: 50px;
@@ -19,16 +22,18 @@ body {
   border: 15px;
   padding: 2px;
   margin: 0px;
-  }
-.box2 {
+}
+.box2 
+{
   background-color: #ffffff;
   width: 100%;
   border: 15px;
   padding: 2px;
   margin-top: 5px;
   margin-bottom: 10px;
-  }
-.box3 {
+}
+.box3 
+{
   background-color: #FFF4F4;
   color: #FF6A6A;
   font-size: 35px;
@@ -40,33 +45,39 @@ body {
   margin-top: 30px;
   margin-bottom: 30px;
   margin: 0px;
-  }
-.box4 {
+}
+.box4 
+{
   background-color: #ffffff;
   width: 100%;
   border: 15px;
   padding: 2px;
   margin: 0px;
-  }
+}
 
-.box5 {
+.box5 
+{
   background-color: #ffffff;
   width: 100%;
   border: 15px;
   padding: 2px;
   margin: 0px;
   font-size: 12px;
-  }
-.table {
+}
+.table 
+{
   margin: 45px;
-  }
-.links{
+}
+.links
+{
   text-align: center;
 }
-a:-webkit-any-link {
+a:-webkit-any-link 
+{
   color: #FF6A6A;
   text-decoration: none;
 }
-a:-webkit-any-link:hover {
+a:-webkit-any-link:hover 
+{
   color: #BA4D4D;
 }

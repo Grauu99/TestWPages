@@ -1,37 +1,37 @@
 <!DOCTYPE html>
 <html>
-<head>
-    <meta charset="utf-8"/>
-    <title>WEB DEVELOPMENT</title>
-    <style type="text/css">
-    body
-    {
-      background-color:black;
-      color:white;
-      font-family: Helvetica;
-    }
-    strong 
-    {
-      background-color: white;
-      color: black;
-    }
-    </style>
-</head>
-<body>
-    <h1>LEARNING WEB DEVELOPMENT</h1>
-    <p>I need learn <strong>programming</strong> fast</p>
-    <p>For that reason, I need study a lot all days and <strong>PRACTICE VERY MUCH MORE</strong></p>
-    <script type="text/javascript">
-        var x = 1; 
-        var y = 2;
-        var z = x * y;
-      alert("I have learned to program for " + z + " months");
-    </script>
-    <script type="text/javascript">
-        var a = 1;
-        var b = 2;
-        var c = a * b;
-        document.write("I have learned to program for " + c + " months");
-    </script>
-</body>
+	<head>
+		<title>Tu peso en otro lugar</title>
+	</head>
+	<body>
+		<h1>Tu peso en otro planeta</h1>
+		<p>En la tierra tu peso es distinto que en Marte o Júpiter</p>
+		<script>
+      var usuario = prompt("¿Cuál es tu peso?")
+      var planeta = parseInt(prompt("Elige el planeta\n1 es Marte, 2 es Júpiter"));
+      var peso = parseInt(usuario);
+		  var g_tierra = 9.8;
+		  var g_marte = 3.7;
+		  var g_jupiter = 24.8;
+		  var peso_final;
+      var n_planeta;
+      if (planeta == 1) 
+      {
+        peso_final = peso * g_marte / g_tierra;
+        n_planeta = "Marte";
+      }
+      else if(planeta == 2)
+      {
+        peso_final = peso * g_jupiter / g_tierra;
+        n_planeta = "Júpiter";
+      }
+      else
+      {
+        peso_final = 0;
+        n_planeta = "ese lugar extraño";
+      }
+      peso_final = parseInt(peso_final)
+		  document.write("Tu peso en " + n_planeta + " es <strong> " + peso_final + " kilos<strong>");
+		</script>
+	</body>
 </html>
