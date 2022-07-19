@@ -2,33 +2,49 @@ html, body {
     height: 100%;
     width: 100%;
   }
-  .box1 {
-    
-    background-color: #FF6A6A;
-    color: #ffffff;
-    width: 300px;
-    border: 15px;
-    padding: 2px;
-    margin: 10px;
+.box1 {
+  background-color: #FF6A6A;
+  color: #ffffff;
+  width: 96%;
+  border: 15px;
+  padding: 2px;
+  margin: 10px;
   }
-  .box2 {
-    background-color: #817f7f;
-    width: 300px;
-    border: 15px;
-    padding: 2px;
-    margin: 10px;
+.box2 {
+  background-color: #ffffff;
+  width: 96%;
+  border: 15px;
+  padding: 2px;
+  margin: 10px;
   }
-  .box3 {
-    background-color: #8d8d8d;
-    width: 300px;
-    border: 15px;
-    padding: 2px;
-    margin: 10px;
+.box3 {
+  background-color: #FFF4F4;
+  color: #FF6A6A;
+  width: 96%;
+  border: 15px;
+  padding: 2px;
+  margin: 10px;
   }
-  .box4 {
-    background-color: #bfbcbc;
-    width: 300px;
-    border: 15px;
-    padding: 2px;
-    margin: 10px;
+.box4 {
+  background-color: #ffffff;
+  width: 96%;
+  border: 15px;
+  padding: 2px;
+  margin: 10px;
   }
+.box5 {
+  background-color: #FFF4F4;
+  color: #FF6A6A;
+  width: 96%;
+  border: 15px;
+  padding: 2px;
+  margin: 10px;
+  }
+.box6 {
+  background-color: #ffffff;
+  width: 96%;
+  border: 15px;
+  padding: 2px;
+  margin: 10px;
+  }
+  
