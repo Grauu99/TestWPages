@@ -6,12 +6,14 @@ html {
   }
 body {
   font-size: 16px;
+  font-weight: normal;
 }
 
 .box1 {
   background-color: #FF6A6A;
   color: #ffffff;
   font-size: 50px;
+  font-weight: bold;
   text-align: center;
   width: 100%;
   border: 15px;
@@ -30,6 +32,7 @@ body {
   background-color: #FFF4F4;
   color: #FF6A6A;
   font-size: 35px;
+  font-weight: bold;
   text-align: center;
   width: 100%;
   border: 15px;
@@ -45,17 +48,8 @@ body {
   padding: 2px;
   margin: 0px;
   }
+
 .box5 {
-  background-color: #FFF4F4;
-  color: #FF6A6A;
-  font-size: 35px;
-  text-align: center;
-  width: 100%;
-  border: 15px;
-  padding: 2px;
-  margin-bottom: 30px;
-  }
-.box6 {
   background-color: #ffffff;
   width: 100%;
   border: 15px;
@@ -68,4 +62,11 @@ body {
   }
 .links{
   text-align: center;
+}
+a:-webkit-any-link {
+  color: #FF6A6A;
+  text-decoration: none;
+}
+a:-webkit-any-link:hover {
+  color: #BA4D4D;
 }
